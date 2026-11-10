@@ -1,0 +1,23 @@
+body{
+    background-color: cyan;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    border-radius: 1942px;
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    animation: tungtungtungsaxurduble 1s infinite linear;
+}
+
+@keyframes tungtungtungsaxurduble{
+    0%{
+        translate: 0px;
+    }
+    100%{
+        transform: translateY(100px);
+    }
+} 
